@@ -69,9 +69,9 @@ if st.sidebar.button("Recommend Me"):
                 st.text(book_recommend[col_idx][0])
                 st.text(book_recommend[col_idx][1])
 # import data
-books = pd.read_csv('Archive/Books.csv')  # books data
-users = pd.read_csv('Archive/Users.csv') # Users location and age data
-ratings = pd.read_csv('Archive/Ratings.csv') # Users rating data
+books = pd.read_csv('archive/Books.csv')  # books data
+users = pd.read_csv('archive/Users.csv') # Users location and age data
+ratings = pd.read_csv('archive/Ratings.csv') # Users rating data
 st.sidebar.title("Data Used")
 
 if st.sidebar.button("Show"):

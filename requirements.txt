@@ -97,7 +97,7 @@ narwhals==1.41.0
 nbclassic
 notebook
 numpy
-pandas
+pandas==1.5.3
 Pillow
 psutil
 pycparser

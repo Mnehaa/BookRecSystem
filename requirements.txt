@@ -87,7 +87,7 @@ mccabe
 mistune
 # Removed: mkl-fft==1.3.1
 # Removed: mkl-service==2.4.0
-mkl-random
+# mkl-random
 mock
 mpmath==1.2.1
 msgpack
